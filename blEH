@@ -6142,10 +6142,10 @@ do
 					Suffix = "s",
 					Decimal = 0.01,
 				})
-				-- Section:AddToggle({ Text = "Keybind List", Default = true, Callback = self.SetKeybindListVisibility })
+				Section:AddToggle({ Text = "Keybind List", Default = true, Callback = self.SetKeybindListVisibility })
 				-- Section:AddToggle({ Text = "Inventory Viewer", Default = true, Callback = self.SetInvViewerVisibler })
 				-- Section:AddToggle({ Text = "Target Stats", Default = true, Callback = self.SetTargetStatsVisibility })
-				-- Section:AddToggle({ Text = "Mod List", Default = true, Callback = self.SetModListVisible })
+				Section:AddToggle({ Text = "Mod List", Default = true, Callback = self.SetModListVisible })
 
 				local Section = Settings:AddSection({ Title = "Theming", Side = 2 })
 				for Name, Value in Themes.Preset do

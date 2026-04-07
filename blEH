@@ -144,7 +144,7 @@ do
 			["Background"] = Color3.fromRGB(21, 21, 21),
 			["PageBackground"] = Color3.fromRGB(25, 25, 25),
 
-			["Accent"] = Color3.fromRGB(65, 91, 128),
+			["Accent"] = Color3.fromRGB(111, 57, 57),
 
 			["TextColor"] = Color3.fromRGB(231, 231, 231),
 

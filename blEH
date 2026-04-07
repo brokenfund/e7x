@@ -1,13 +1,4 @@
---[[
-    NAME: Lumen
-    FOR: brokenfunding (@1422769954419249204)
-    
-    
-    BASE (ignore): 
 
-]]
-
--- Variables
 local ServiceCache = {} -- Cloneref bypass
 getgenv().Services = setmetatable({}, {
 	__index = function(Self, Index)
